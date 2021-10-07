@@ -4,13 +4,12 @@
 ##   YouTube Channel        https://www.youtube.com/channel/UCeJ8fKP5AK3LO5r4dLsqiGQ
 
 
-##   THANKS TO   :
+##   THANKS TO   : Amir Shahzad
 ##   Amir Shahzad: - https://github.com/adi1090x
 ##   YouTube     : https://www.youtube.com/channel/UCeJ8fKP5AK3LO5r4dLsqiGQ
 ##   Blogger      : dallantechnology.blogspot.com
 
 ## If you Copy Then Give the credits :)
-
 
 
 
@@ -71,18 +70,16 @@ kill_pid() {
 
 ## Banner
 banner() {
-	cat <<- EOF               _            _       __*****}}}}
-		${ORANGE}              | | }}     }}| |     | |         }}                   ★彡[AAMIR]彡★
-		${ORANGE}              | |   }} }}  | |     | |         } }                  ★彡[AAMIR]彡★
-		${ORANGE}              | |    }}    | |     | |         } }                  ★彡[AAMIR]彡★
-		${ORANGE}              | |          | |     | |         }}                   ★彡[AAMIR]彡★
-		${ORANGE}              | |          | |     | | } }  } }}                    ★彡[AAMIR]彡★
-		${ORANGE}              | |          | |     | |   }}                         ★彡[AAMIR]彡★
-		${ORANGE}              | |          | |     | |    }}                        ★彡[AAMIR]彡★
-		${ORANGE}              | |          | |     | |      }}
+	cat <<- EOF
 		${ORANGE}
-           
-           ${RED}Version : 2.2
+		${ORANGE}             _     _     _               
+		${ORANGE}            | |   (_)   | |              
+		${ORANGE}       _ __ | |__  _ ___| |__   ___ _ __ 
+		${ORANGE}      | '_ \| '_ \| / __| '_ \ / _ \ '__|
+		${ORANGE}  _|  | | | | \__ \ | | |  __/ |   
+		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
+		${ORANGE}      | |                                
+		${ORANGE}      |_|                ${RED}Version : 2.2
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
 	EOF
@@ -92,17 +89,9 @@ banner() {
 banner_small() {
 	cat <<- EOF
 		${BLUE}
-		${BLUE}                  _            _       __*****}}}}
-		$BLUE                  | | }}     }}| |     | |         }}                   ★彡[AAMIR]彡★
-		$BLUE                  | |   }} }}  | |     | |         } }                  ★彡[AAMIR]彡★
-		$BLUE                  | |    }}    | |     | |         } }                  ★彡[AAMIR]彡★
-		$BLUE                  | |          | |     | |         }}                   ★彡[AAMIR]彡★
-		$BLUE                  | |          | |     | | } }  } }}                    ★彡[AAMIR]彡★
-		$BLUE                  | |          | |     | |   }}                         ★彡[AAMIR]彡★
-		$BLUE                  | |          | |     | |    }}                        ★彡[AAMIR]彡★
-		$BLUE                  | |          | |     | |      }}
-		${BLUE}  
-		${BLUE}  
+		${BLUE}      ░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
+		${BLUE}  ░     █▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
+		${BLUE}  ░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} 2.2
 	EOF
 }
 
