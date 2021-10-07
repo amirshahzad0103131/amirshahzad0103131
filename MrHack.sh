@@ -5,7 +5,7 @@
 ##   Version 	: 	2.2
 ##   Github 	: 	https://github.com/htr-tech
 
-##   THANKS TO :       Amir Shahzad
+##   THANKS TO :
 ##   Aditya Shakya - https://github.com/adi1090x
 ##   1RaY-1 - https://github.com/1RaY-1
 ##   Moises Tapia - https://github.com/MoisesTapia
@@ -13,7 +13,7 @@
 ##   DarksecDevelopers  - https://github.com/DarksecDevelopers
 ##   Ignitetch  - https://github.com/Ignitetch/AdvPhishing
 ##   Võ Ngọc Bảo - https://github.com/vongocbao
-##   
+##   Mustakim Ahmed - https://www.facebook.com/Learn.Termux.009
 
 
 ## If you Copy Then Give the credits :)
@@ -149,8 +149,32 @@ kill_pid() {
 	fi
 }
 
+## Banner
+banner() {
+	cat <<- EOF
+		${ORANGE}
+		${ORANGE} ______      _     _     _               
+		${ORANGE}|___  /     | |   (_)   | |              
+		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
+		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
+		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
+		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
+		${ORANGE}      | |                                
+		${ORANGE}      |_|                ${RED}Version : 2.2
 
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+	EOF
+}
 
+## Small Banner
+banner_small() {
+	cat <<- EOF
+		${BLUE}
+		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
+		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
+		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} 2.2
+	EOF
+}
 
 ## Dependencies
 dependencies() {
